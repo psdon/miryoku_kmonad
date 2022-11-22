@@ -88,7 +88,7 @@ U_NP,              U_NP,              U_LT(esc, U_MEDIA),U_LT(spc, U_NAV),  U_LT
 q,                 w,                 f,                 p,                 b,                 j,                 l,                 u,                 y,                 U_QUOT,            \
 U_MT(a, met),      U_MT(r, alt),      U_MT(s, ctl),      U_MT(t, sft),      g,                 m,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(i, alt),      U_MT(o, met),      \
 U_LT(z, U_BUTTON), U_MT(x, ralt),     c,                 d,                 v,                 k,                 h,                 U_COMM,            U_MT(., ralt),     U_LT(/, U_BUTTON), \
-U_NP,              U_NP,              U_LT(esc, U_MEDIA),U_LT(spc, U_NAV),  U_LT(tab, U_MOUSE),U_LT(ent, U_SYM),  U_LT(bspc, U_NUM), U_LT(del, U_FUN),  U_NP,              U_NP
+U_NP,              U_NP,              U_LT(bspc, U_NUM),U_LT(del, U_FUN),   U_LT(tab, U_MOUSE),U_LT(esc, U_MEDIA),U_LT(ent, U_SYM),  U_LT(spc, U_NAV),  U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDHK \
 q,                 w,                 f,                 p,                 b,                 j,                 l,                 u,                 y,                 U_QUOT,            \
@@ -209,7 +209,7 @@ U_NP,              U_NP,              esc,               spc,               tab,
 q,                 w,                 f,                 p,                 b,                 j,                 l,                 u,                 y,                 U_QUOT,            \
 a,                 r,                 s,                 t,                 g,                 m,                 n,                 e,                 i,                 o,                 \
 z,                 x,                 c,                 d,                 v,                 k,                 h,                 U_COMM,            .,                 /,                 \
-U_NP,              U_NP,              esc,               spc,               tab,               ent,               bspc,              del,               U_NP,              U_NP
+U_NP,              U_NP,              bspc,              del,               tab,               esc,               ent,               spc,               U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAKDHK \
 q,                 w,                 f,                 p,                 b,                 j,                 l,                 u,                 y,                 U_QUOT,            \
